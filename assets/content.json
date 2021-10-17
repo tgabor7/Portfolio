@@ -1,0 +1,59 @@
+{
+    "content": {
+        "aboutme": "Hi, I recently graduated from ELTE with a degree in Computer Science and I'm looking to work as a Fullstack developer. During my studies I gained experience in software development and I'm confident in my ability to develop web and mobile apps for both individuals or companies. I'm based in Hungary and I'm looking forward to work with anyone all over the World.",
+        "mystack": "During my studies I have got to know multiple Web stacks and decided to master the MERN stack. It stands for M(onogo) E(xpressjs) R(eact) N(odejs). For mobile development I mostly use React Native, but I also have some experience with native Android development. The apps I create are usually deployed using Heroku (as it is free) or Firebase (again I only have experience with the free features).",
+        "stack": [
+            {
+                "content": "I use MongoDB as the database for my apps. MongoDB can be used as a cloud service (MongoDB Atlas) or it can be installed on a server computer. It's a NoSQL database and it uses BSON (Binary JSON) Documents to store data.",
+                "link": "https://www.mongodb.com/"
+            },
+            {
+                "content": "I use Express.js for routing and to handle HTTP requests.",
+                "link": "https://expressjs.com/"
+            },
+            {
+                "content": "Frontend development is definetly the favorite part of my work. I use React js as the Frontend framework for my apps. I write clean testable code, I have experience with both class and functional Components. I have a good understanding of hooks, states and the life cycle of Components. For state management I use Redux.",
+                "link": "https://reactjs.org/"
+            },
+            {
+                "content": "The Backend of my apps is ususally written in Nodejs. This is where i handle authorization, authentication, communication with the database and other things that needs to be done on the server. Web hosting services usually handle these things though.",
+                "link": "https://nodejs.org/en/"
+            }
+        ],
+        "projects": [
+            {
+                "title": "Geant4",
+                "description": "Geant4 is a toolkit for the simulation of particles through matter. As part of an EFOP project I was assigned to develop a Web interface for Geant4 that allows users to create ellaborate nuclear simulations in a brower. Among many things I was responsible for developing the frontend, databases (for storing users and simulation setups), integrating the Geant4 toolkit with Nodejs to craete an API that handles all the simulation's calculations, authentication and deploying on the university's server.",
+                "link": "https://github.com/tgabor7/nodegeant4"
+            },
+            {
+                "title": "Ecommerce",
+                "description": "Ecommerce Application made with React Native. Features include viewing the products stored in a firestore database, adding new products and a shopping cart.",
+                "link": "https://github.com/tgabor7/EcommerceApp"
+            },
+            {
+                "title": "FluidSim",
+                "description": "Lattice gas automata following the LBGK Model written in OpenGL and CUDA.",
+                "link": "https://github.com/tgabor7/FluidSim"
+            }
+        ],
+        "skills": {
+            "languages": [
+                "HTML/CSS/SASS",
+                "Javascript / Typescript",
+                "Python",
+                "Java",
+                "C/C++"
+            ],
+            "technologies": [
+                "MongoDB",
+                "Nodejs",
+                "Jest",
+                "React / React Native",
+                "OpenGL / WebGL",
+                "Heroku",
+                "Firebase"
+            ]
+        }
+    }
+}
